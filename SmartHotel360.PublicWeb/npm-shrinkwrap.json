@@ -116,6 +116,14 @@
       "resolved": "https://registry.npmjs.org/@types/redux-actions/-/redux-actions-2.2.1.tgz",
       "integrity": "sha512-hOQsydO5XSQtt/WIElYAPoFu6D8H0IpAsHFhmUvEvWGFGuKD7ZiWkI2vX9is3ZqmQSVTiQ0/SrBzlrwYHICi3A=="
     },
+    "@types/redux-localstorage": {
+      "version": "1.0.5",
+      "resolved": "https://registry.npmjs.org/@types/redux-localstorage/-/redux-localstorage-1.0.5.tgz",
+      "integrity": "sha512-KKPOQ8Hhk5c64zIdfVwSBW3Jv5Y4bRKtm6jfnMGQj+Eck2HIqjsSmKF1/rX9Pbs8TP+8tfx1P7u5IqfmCqIaqw==",
+      "requires": {
+        "redux": "^3.6.0"
+      }
+    },
     "@types/source-map": {
       "version": "0.5.0",
       "resolved": "https://registry.npmjs.org/@types/source-map/-/source-map-0.5.0.tgz",
@@ -2955,9 +2963,9 @@
       "integrity": "sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo="
     },
     "jquery": {
-      "version": "3.2.1",
-      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.2.1.tgz",
-      "integrity": "sha1-XE2d5lKvbNCncBVKYxu6ErAVx4c="
+      "version": "3.5.0",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.5.0.tgz",
+      "integrity": "sha512-Xb7SVYMvygPxbFMpTFQiHh1J7HClEaThguL15N/Gg37Lri/qKyhRGZYzHRyLH8Stq3Aow0LsHO2O2ci86fCrNQ=="
     },
     "js-base64": {
       "version": "2.1.9",
@@ -4996,6 +5004,11 @@
         "lodash-es": "4.17.4",
         "reduce-reducers": "0.1.2"
       }
+    },
+    "redux-localstorage": {
+      "version": "0.4.1",
+      "resolved": "https://registry.npmjs.org/redux-localstorage/-/redux-localstorage-0.4.1.tgz",
+      "integrity": "sha1-+vbXGcWBOXKU2BFHP/zt7gZckzw="
     },
     "redux-thunk": {
       "version": "2.2.0",
