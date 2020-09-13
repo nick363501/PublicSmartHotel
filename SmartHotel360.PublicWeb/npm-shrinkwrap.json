@@ -116,6 +116,14 @@
       "resolved": "https://registry.npmjs.org/@types/redux-actions/-/redux-actions-2.2.1.tgz",
       "integrity": "sha512-hOQsydO5XSQtt/WIElYAPoFu6D8H0IpAsHFhmUvEvWGFGuKD7ZiWkI2vX9is3ZqmQSVTiQ0/SrBzlrwYHICi3A=="
     },
+    "@types/redux-localstorage": {
+      "version": "1.0.5",
+      "resolved": "https://registry.npmjs.org/@types/redux-localstorage/-/redux-localstorage-1.0.5.tgz",
+      "integrity": "sha512-KKPOQ8Hhk5c64zIdfVwSBW3Jv5Y4bRKtm6jfnMGQj+Eck2HIqjsSmKF1/rX9Pbs8TP+8tfx1P7u5IqfmCqIaqw==",
+      "requires": {
+        "redux": "^3.6.0"
+      }
+    },
     "@types/source-map": {
       "version": "0.5.0",
       "resolved": "https://registry.npmjs.org/@types/source-map/-/source-map-0.5.0.tgz",
@@ -1744,11 +1752,11 @@
       "integrity": "sha1-eePVhlU0aQn+bw9Fpd5oEDspTSA="
     },
     "encoding": {
-      "version": "0.1.12",
-      "resolved": "https://registry.npmjs.org/encoding/-/encoding-0.1.12.tgz",
-      "integrity": "sha1-U4tm8+5izRq1HsMjgp0flIDHS+s=",
+      "version": "0.1.13",
+      "resolved": "https://registry.npmjs.org/encoding/-/encoding-0.1.13.tgz",
+      "integrity": "sha512-ETBauow1T35Y/WZMkio9jiM0Z5xjHHmJ4XmjZOq1l/dXz3lr2sRn87nJy20RupqSh1F2m3HHPSp8ShIPQJrJ3A==",
       "requires": {
-        "iconv-lite": "0.4.18"
+        "iconv-lite": "^0.6.2"
       }
     },
     "enhanced-resolve": {
@@ -2523,9 +2531,12 @@
       "integrity": "sha1-P5E2XKvmC3ftDruiS0VOPgnZWoI="
     },
     "iconv-lite": {
-      "version": "0.4.18",
-      "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.18.tgz",
-      "integrity": "sha512-sr1ZQph3UwHTR0XftSbK85OvBbxe/abLGzEnPENCQwmHf7sck8Oyu4ob3LgBxWWxRoM+QszeUyl7jbqapu2TqA=="
+      "version": "0.6.2",
+      "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.2.tgz",
+      "integrity": "sha512-2y91h5OpQlolefMPmUlivelittSWy0rP+oYVpn6A7GwVHNE8AWzoYOBNmlwks3LobaJxgHCYZAnyNo2GgpNRNQ==",
+      "requires": {
+        "safer-buffer": ">= 2.1.2 < 3.0.0"
+      }
     },
     "icss-replace-symbols": {
       "version": "1.1.0",
@@ -2947,6 +2958,17 @@
       "requires": {
         "node-fetch": "1.7.3",
         "whatwg-fetch": "2.0.3"
+      },
+      "dependencies": {
+        "node-fetch": {
+          "version": "1.7.3",
+          "resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-1.7.3.tgz",
+          "integrity": "sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==",
+          "requires": {
+            "encoding": "^0.1.11",
+            "is-stream": "^1.0.1"
+          }
+        }
       }
     },
     "isstream": {
@@ -3468,13 +3490,9 @@
       }
     },
     "node-fetch": {
-      "version": "1.7.3",
-      "resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-1.7.3.tgz",
-      "integrity": "sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==",
-      "requires": {
-        "encoding": "0.1.12",
-        "is-stream": "1.1.0"
-      }
+      "version": "2.6.1",
+      "resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz",
+      "integrity": "sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw=="
     },
     "node-gyp": {
       "version": "3.6.2",
@@ -4997,6 +5015,11 @@
         "reduce-reducers": "0.1.2"
       }
     },
+    "redux-localstorage": {
+      "version": "0.4.1",
+      "resolved": "https://registry.npmjs.org/redux-localstorage/-/redux-localstorage-0.4.1.tgz",
+      "integrity": "sha1-+vbXGcWBOXKU2BFHP/zt7gZckzw="
+    },
     "redux-thunk": {
       "version": "2.2.0",
       "resolved": "https://registry.npmjs.org/redux-thunk/-/redux-thunk-2.2.0.tgz",
@@ -5202,6 +5225,11 @@
       "version": "5.1.1",
       "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz",
       "integrity": "sha512-kKvNJn6Mm93gAczWVJg7wH+wGYWNrDHdWvpUmHyEsgCtIwwo3bqPtV4tR5tuPaUhTOo/kvhVwd8XwwOllGYkbg=="
+    },
+    "safer-buffer": {
+      "version": "2.1.2",
+      "resolved": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz",
+      "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg=="
     },
     "sass-graph": {
       "version": "2.2.4",
